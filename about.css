@@ -1,0 +1,140 @@
+body {
+    height: 1000px;
+}
+
+
+.About {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.About .content {
+    margin-top: 170px;
+    background: rgba(0, 0, 0, 0.826);
+    width: 100%;
+    text-align: center;
+    box-shadow: -2px 0 2px 4px rgba(0, 0, 0, 0.26);
+    border-radius: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row !important;
+}
+
+.About .content h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    text-wrap: wrap;
+    letter-spacing: 3px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.img2 {
+    box-shadow: -2px 0px 3px 4px rgba(0, 0, 0, 0.342);
+    padding: 10px;
+    margin-left: 20px;
+    background: linear-gradient(120deg, rgba(0, 0, 255, 0.509), rgba(255, 0, 0, 0.66));
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    cursor: pointer;
+    transition: 1s;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.img2:hover {
+    transform: rotateZ(100deg);
+    transform: rotateX(100deg);
+    transform: rotateY(200deg);
+    flex-wrap: wrap;
+}
+
+.spa {
+    background-color: rgba(52, 52, 240, 0.696);
+    color: #ffffff;
+    padding: 25px;
+    margin: 10px;
+    border-top-right-radius: 110px;
+    box-shadow: -1px 0 5px -3px rgba(0, 0, 0, 0.831);
+    border-bottom-left-radius: 110px;
+}
+
+
+@media (max-width:991px) {
+    .img2 {
+        margin-top: 20px;
+    }
+}
+
+.phone {
+    background: rgba(0, 0, 0, 0.826);
+    margin-top: 22px;
+    margin-bottom: 22px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    height: 240px;
+    box-shadow: -1px 0 5px 4px rgba(0, 0, 0, 0.233);
+    align-items: center;
+    transition: .5s;
+}
+
+.phone .mynum,
+.myaddr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(143, 141, 141);
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: .5s;
+    border-radius: 5px;
+}
+
+.icon {
+    margin-right: 10px;
+    color: white;
+    width: 40px;
+    background: linear-gradient(120deg, rgba(43, 43, 235, 0.509),rgba(240, 59, 59, 0.66));
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.phone .mynum:hover {
+    background: linear-gradient(120deg, rgba(43, 43, 235, 0.509),rgba(240, 59, 59, 0.66));
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.phone .myaddr:hover {
+    background: linear-gradient(120deg, rgba(43, 43, 235, 0.509),rgba(240, 59, 59, 0.66));
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+
+.numlin,.addlin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(143, 141, 141);
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: .5s;
+    border-radius: 5px;
+}
